@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+</head>
+<body>
+
+
+    <h1>Papelería Los amigos Informáticos</h1>
+    
+    <img src="{% static 'logo.png' %}" alt="Django">
+
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    
+    <h3>Productos</h3>
+    <p>Puedes visualizar toda nuestra mercancia en <a href="Productos/">Productos</a></p>   
+
+{% include 'piePagina.html' %}
+</body>
+</html>
